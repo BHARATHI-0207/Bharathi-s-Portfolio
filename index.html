@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharathi T | Portfolio</title>
+    <meta name="description" content="Portfolio of Bharathi T.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main App View -->
+    <div id="main-app">
+        <header>
+            <nav id="navbar">
+                <div class="logo">Bharathi<span> T.</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+                <button class="menu-btn" id="mobile-menu-btn" aria-label="Open menu">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                </button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span class="highlight">Bharathi T</span></h1>
+                    <p class="subtitle">A motivated CSE graduate eager to contribute through technical expertise and business development.</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                </div>
+            </section>
+
+            <section id="about" class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I am an enthusiastic Computer Science graduate with strong communication and interpersonal skills. I'm eager to contribute to company growth by building client relationships, identifying new business opportunities, and delivering value-driven solutions.</p>
+                        <p>I hold a B.E. in Computer Science and Engineering from T.J.S Engineering College with an 8.9 CGPA, possessing a unique blend of programming knowledge and business strategy.</p>
+                    </div>
+                    <div class="experience-cards">
+                        <div class="card glass-card">
+                            <h3>B.E. Computer Science</h3>
+                            <span class="date">Nov 2022 - Present</span>
+                            <p>T.J.S Engineering College. CGPA: 8.9. Focus on Data Structures, DBMS, Networking and Software Engineering.</p>
+                        </div>
+                        <div class="card glass-card">
+                            <h3>Leadership & Activities</h3>
+                            <span class="date">College Events</span>
+                            <p>Coordinated symposium activities and poster making competitions. Developed strong problem-solving and teamwork skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="container dark-alt">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item glass-card">
+                        <div class="skill-icon">💻</div>
+                        <h3>Programming</h3>
+                        <p>Python, C, SQL, FastAPI, Selenium, GitHub, VS Code.</p>
+                    </div>
+                    <div class="skill-item glass-card">
+                        <div class="skill-icon">📊</div>
+                        <h3>Business & Data</h3>
+                        <p>MS Excel, CRM Tools, Data Analysis, Market Research.</p>
+                    </div>
+                    <div class="skill-item glass-card">
+                        <div class="skill-icon">🤝</div>
+                        <h3>Soft Skills</h3>
+                        <p>Communication, Negotiation, Problem Solving, Teamwork.</p>
+                    </div>
+                    <div class="skill-item glass-card">
+                        <div class="skill-icon">📈</div>
+                        <h3>Marketing & Sales</h3>
+                        <p>Lead Generation, Digital Marketing (SEO), Content Strategy.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="container">
+                <h2 class="section-title">Featured Projects & Certifications</h2>
+                <div class="projects-grid">
+                    <div class="project-card glass-card">
+                        <div class="project-img bg-grad-1"></div>
+                        <div class="project-info">
+                            <h3>LinkedIn Automation API</h3>
+                            <p>A modular API using FastAPI & Selenium with anti-bot stealth techniques for automated network management.</p>
+                            <a href="https://github.com/BHARATHI-0207/linkedin-automation-api.git" target="_blank" class="link">View GitHub &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="project-card glass-card">
+                        <div class="project-img bg-grad-2"></div>
+                        <div class="project-info">
+                            <h3>Micro Web Applications</h3>
+                            <p>Developed multiple micro-apps (Java + Spring Boot) including auth, task manager, and feedback REST APIs.</p>
+                            <a href="#" class="link">View Details &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="project-card glass-card">
+                        <div class="project-img bg-grad-3"></div>
+                        <div class="project-info">
+                            <h3>Infosys Springboard</h3>
+                            <p>Certifications completed in fundamental Networking principles and introductory Web Technologies.</p>
+                            <a href="https://verify.onwingspan.com" target="_blank" class="link">View Certificate &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="container dark-alt">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper glass-card">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" required placeholder="john@example.com">
+                            <span id="email-error" class="error-msg">Please enter a valid email address.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required placeholder="How can I help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        <div id="form-success" class="success-msg hidden">Message sent successfully!</div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2026 Bharathi T | <a href="#" id="open-admin-link">Admin Login</a></p>
+                <p style="margin-top: 10px; font-size: 0.9em; line-height: 1.8;">
+                   <a href="mailto:bharathiselvi020704@gmail.com">bharathiselvi020704@gmail.com</a> | +91 6381811591<br>
+                   Thervoy, Gummidipoondi, Tiruvallur 601202<br>
+                   <a href="https://www.linkedin.com/in/bharathi-t-2a8706329" target="_blank">LinkedIn</a> | <a href="https://github.com/BHARATHI-0207" target="_blank">GitHub</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Admin Login Section -->
+    <div id="admin-login-view" class="hidden">
+        <div class="auth-container glass-card">
+            <h2>Admin Area</h2>
+            <p>Please log in to view messages.</p>
+            <form id="admin-login-form">
+                <div class="form-group">
+                    <input type="text" id="admin-user" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="admin-pass" placeholder="Password" required>
+                </div>
+                <span id="login-error" class="error-msg hidden">Invalid credentials.</span>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+            <button id="close-admin-login" class="btn btn-outline btn-block mt-3">Back to Site</button>
+        </div>
+    </div>
+
+    <!-- Admin Dashboard Section -->
+    <div id="admin-dashboard-view" class="hidden">
+        <header class="admin-header">
+            <h2>Messages Dashboard</h2>
+            <button id="admin-logout-btn" class="btn btn-outline">Logout</button>
+        </header>
+        <main class="dashboard-container">
+            <div id="messages-list" class="messages-grid">
+                <!-- Messages will be rendered here -->
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
